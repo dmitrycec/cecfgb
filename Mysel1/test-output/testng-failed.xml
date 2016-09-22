@@ -3,18 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
+      <class name="ru.emoskva.selenium.Mysel1.util.PropertyLoader"/>
+      <class name="ru.emoskva.selenium.Mysel1.pages.Page"/>
+      <class name="ru.emoskva.selenium.Mysel1.SampleTestNgTest"/>
+      <class name="ru.emoskva.selenium.Mysel1.pages.HomePage"/>
       <class name="ru.emoskva.selenium.Mysel1.TestNG"/>
+      <class name="ru.emoskva.selenium.Mysel1.TestNgTestBase"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="ru.emoskva.selenium.Mysel1.TestNG">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="main"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- ru.emoskva.selenium.Mysel1.TestNG -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

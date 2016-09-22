@@ -4,6 +4,7 @@
   <test name="Test1">
     <classes>
       <class name="ru.emoskva.selenium.Mysel1.SampleTestNgTest"/>
+      <class name="ru.emoskva.selenium.Mysel1.TestNG"/>	  
     </classes>
   </test>  
 </suite>
